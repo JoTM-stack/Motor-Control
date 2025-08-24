@@ -12,8 +12,8 @@ This project demonstrates a basic motor control system using an Arduino Uno, sim
 ## ⚙️ Description of Operation
 - The motor is driven by PWM from the Arduino Uno and its speed is controlled based on the input voltage.
 - An LCD displays the motor status (`ON/OFF`), applied voltage, and calculated motor speed.
-- **Speed Calculation:**  
-  The speed (%) is proportional to the applied input voltage relative to the maximum supply voltage of 5V
+- **Speed Calculation:**
+  he speed (%) is proportional to the applied input voltage relative to the maximum supply voltage of 5V
 
 - The LCD shows both the percentage (%) and the real-time voltage value.
 - An LED indicator will turn **ON** when the motor speed exceeds 50%.
