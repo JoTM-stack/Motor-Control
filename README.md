@@ -9,6 +9,19 @@ This project demonstrates a basic motor control system using an Arduino Uno, sim
 - USART logging to serial monitor
 - Built in SimulIDE with schematic provided
 
+## ⚙️ Description of Operation
+- The motor is driven by PWM from the Arduino Uno and its speed is controlled based on the input voltage.
+- An LCD displays the motor status (`ON/OFF`), applied voltage, and calculated motor speed.
+- **Speed Calculation:**  
+  The speed (%) is proportional to the applied input voltage relative to the maximum supply voltage:  
+
+  \[
+  \text{Speed %} = \frac{V_{in}}{V_{max}} \times 100
+  \]
+
+- The LCD shows both the percentage (%) and the real-time voltage value.
+- An LED indicator will turn **ON** when the motor speed exceeds 50%.
+
 ## 🚀 Project Files
 - `MotorLogic.ino` → Arduino Code
 - `Motor_Firmware.hex` → Compiled hex
