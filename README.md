@@ -10,10 +10,10 @@ This project demonstrates a basic motor control system using an Arduino Uno, sim
 - Built in SimulIDE with schematic provided
 
 ## 🚀 Project Files
-- `src/MotorControl.ino` → Arduino sketch
-- `src/MotorControl.hex` → Compiled hex
-- `simulide/MotorControl.sim1` → SimulIDE project file
-- `docs/schematic.png` → Project schematic screenshot
+- `MotorLogic.ino` → Arduino sketch
+- `Motor_Firmware.hex` → Compiled hex
+- `SchematicLayout.sim1` → SimulIDE project file
+- `Layout.png` → Project schematic screenshot
 
 ## ⚠️ Known Issues
 - Motor toggle sometimes fails to update correctly.
