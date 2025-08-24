@@ -10,7 +10,7 @@ This project demonstrates a basic motor control system using an Arduino Uno, sim
 - Built in SimulIDE with schematic provided
 
 ## 🚀 Project Files
-- `MotorLogic.ino` → Arduino sketch
+- `MotorLogic.ino` → Arduino Code
 - `Motor_Firmware.hex` → Compiled hex
 - `SchematicLayout.sim1` → SimulIDE project file
 - `Layout.png` → Project schematic screenshot
