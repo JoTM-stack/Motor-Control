@@ -2,34 +2,6 @@
 Simulation of a PWM-based motor control with LCD monitoring, built in SimulIDE and Arduino IDE
 This project demonstrates a basic motor control system using an Arduino Uno, simulated in SimulIDE. The motor speed is controlled via PWM, the LCD displays real-time voltage and ON/OFF state, and serial communication (USART) provides logs to the monitor. Includes .sim1 simulation file, Arduino .ino sketch, and compiled .hex file
 
-Motor-Control-Project/
-
-│
-
-├── src/
-
-│   ├── MotorControl.ino       # Arduino sketch
-
-│   ├── MotorControl.hex       # Compiled hex
-
-│
-
-├── simulide/
-
-│   ├── MotorControl.sim1      # SimulIDE project file
-
-│
-
-├── docs/
-
-│   ├── schematic.png          # Exported schematic screenshot
-
-│   ├── README.md              # Project documentation
-
-│
-
-└── LICENSE
-
 ## 🔧 Features
 - Control motor speed using PWM
 - Display motor ON/OFF state and voltage on LCD
