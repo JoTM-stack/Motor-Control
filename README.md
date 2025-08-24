@@ -31,7 +31,7 @@ This project demonstrates a basic motor control system using an Arduino Uno, sim
 (Feel free to fix and submit a PR!)
 
 ## ▶️ How to Run
-1. Open `MotorControl.sim1` in **SimulIDE**.
-2. Upload `MotorControl.hex` into the Arduino board inside SimulIDE.
+1. Open `SchematicLayout.sim1` in **SimulIDE**.
+2. Upload `Motor_Firmware.hex` into the Arduino board inside SimulIDE.
 3. Open the serial monitor to view USART logs.
 4. Adjust motor control input to test speed variation.
