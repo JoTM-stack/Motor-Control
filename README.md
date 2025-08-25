@@ -28,7 +28,7 @@ This project demonstrates a basic motor control system using an Arduino Uno, sim
 - **Button Operation**: Gently press and hold the motor toggle button for approximately 150ms (about 1/6 of a second) to ensure reliable state changes. Quick taps may not register properly due to debouncing protection.
 - **Motor Response**: The system includes deliberate debounce delays to prevent accidental double-toggles and protect the motor from rapid state changes.
 - **Serial Monitor**: USART1 logs display detailed system status including motor speed in km/h, button states, and PWM values for debugging purposes.
-  ![Alt text]{SerialMonitor.png}
+  ![Alt text](SerialMonitor.png)
 
 ## ▶️ How to Run
 1. Open `SchematicLayout.sim1` in **SimulIDE**.
